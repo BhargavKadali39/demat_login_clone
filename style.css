@@ -10,3 +10,29 @@ body{
     display: flex;
     justify-content: center;
 }
+
+
+.nav{
+    /* background-color: aqua; */
+    margin-top: 20px;
+    width: 90%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.left_items{
+    display: flex;
+}
+
+
+.semiCir{
+    margin: 0;
+    position: relative;
+    height: 50px;
+    width: 30px;
+    background-color: black;
+    clip-path: circle(50% at 0 50%);
+}
