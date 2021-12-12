@@ -106,7 +106,7 @@ body{
 }
 
 .focusArea{
-    background-image: url("D:\brave downloads\mybg.png");
+    background-image: url(".\mybg.png");
     display: flex;
     justify-content: space-evenly;
     
