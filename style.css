@@ -36,3 +36,40 @@ body{
     background-color: black;
     clip-path: circle(50% at 0 50%);
 }
+
+
+.left_items h3{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 45px;
+}
+
+
+.right_items{
+    display: flex;
+}
+
+
+.right_items p{
+    margin: 7px 10px;
+}
+
+
+.right_items button{
+    border: none;
+    background-color: black;
+    border-radius: 10px;
+    color: #ffffff;
+    margin: 0 10px;
+    height: 50px;
+    width: 140px
+}
+
+
+.right_items img{
+    float: left;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 7px;
+    filter: invert(1);
+}
