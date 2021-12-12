@@ -1,1 +1,12 @@
 
+body{
+    margin: 0;
+    padding: 0;
+    background: #FBE6DE;
+}
+
+
+.navBar{
+    display: flex;
+    justify-content: center;
+}
