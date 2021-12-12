@@ -104,3 +104,26 @@ body{
     font-size: 30px;
     margin: 80px 0 0 40px;
 }
+
+.focusArea{
+    background-image: url("D:\brave downloads\mybg.png");
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.learn{
+    height: 400px;
+    width: 400px;
+    /* background-color: blue; */
+}
+.login{
+    height: 400px;
+    width: 400px;
+    /* background-color: red; */
+}
+
+.svgMK{
+    z-index: -2;
+    overflow: hidden;
+}
