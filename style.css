@@ -1,3 +1,6 @@
+*{
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
 body{
     margin: 0;
@@ -10,7 +13,6 @@ body{
     display: flex;
     justify-content: center;
 }
-
 
 .nav{
     /* background-color: aqua; */
@@ -74,6 +76,7 @@ body{
     filter: invert(1);
 }
 
+
 .midSection{
     margin: 50px 0 0 50px;
     /* background-color: aqua; */
@@ -96,7 +99,7 @@ body{
     
     font-weight: 700;
     font-size: 90px;
-    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif; */
 }
 
 .info h2{
@@ -106,7 +109,6 @@ body{
 }
 
 .focusArea{
-    background-image: url(".\mybg.png");
     display: flex;
     justify-content: space-evenly;
     
@@ -115,15 +117,85 @@ body{
 .learn{
     height: 400px;
     width: 400px;
-    /* background-color: blue; */
+    background: radial-gradient(circle, #FED5C1 70%, rgba(255, 255, 255, 0) 71%);
 }
+.learn p{
+    font-weight: 600;
+    font-size: 20px;
+    margin: 20% 0 0 10%;
+}
+.learn h3{
+    position: absolute;
+    font-size: 65px;
+    margin: 30px 0 0 35px;
+}
+.learn h4{
+    font-size: 80px;
+    margin : 85px 0 0 25px;
+    text-shadow: 2px -2px #000000, -2px -2px  #000000,-2px 2px  #000000,2px 2px  #000000,2px 2px  #000000;
+    color: #FED5C1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.learn button,.login button{
+    height: 45px;
+    width: 150px;
+    color: #ffffff;
+    border-radius: 7px;
+    background-color: #000000;
+    border: none;
+    margin-left: 40px;
+}
+
 .login{
     height: 400px;
     width: 400px;
-    /* background-color: red; */
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px;
+    color: #ffffff;
+}
+.login h3{
+    margin: 40px 0 0 40px;
+}
+.login button{
+    background-color: #FED5C1;
+    color: #000000;
+    margin: 20px 30px 20px 45px;
+}
+.login a{
+    color: #FED5C1;
 }
 
-.svgMK{
-    z-index: -2;
-    overflow: hidden;
+.inputs{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.inputs input{
+    outline: none;
+    height: 30px;
+    width: 270px;
+    margin: 15px 0 0 40px;
+    border-radius: 7px;
+    color: #000000;
+}
+
+::placeholder {
+    color: #7a7a7a;
+  }
+
+.inputs p{
+    font-size: 12px;
+    color: #b0b1b1;
+    margin: 40px 0 0 40px;
+}
+.inputs a{
+    color: inherit;
+}
+.footere{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    word-spacing: 4px;
 }
