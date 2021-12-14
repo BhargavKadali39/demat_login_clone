@@ -49,6 +49,7 @@ body{
 
 .right_items{
     display: flex;
+    flex-wrap: wrap;justify-content: space-evenly;
 }
 
 
@@ -78,7 +79,7 @@ body{
 
 
 .midSection{
-    margin: 50px 0 0 50px;
+    margin: 100px 0 0 50px;
     /* background-color: aqua; */
     height: 150px;
     width: calc(100% - 100px);
@@ -126,8 +127,9 @@ body{
 }
 .learn h3{
     position: absolute;
-    font-size: 65px;
-    margin: 30px 0 0 35px;
+    font-size: calc(2vw + 2.5vh + 2vmin);
+    /* fix at media q */
+    margin: 20px 0 15px 25px;
 }
 .learn h4{
     font-size: 80px;
@@ -195,7 +197,37 @@ body{
 }
 .footere{
     display: flex;
-    justify-content: space-between;
     margin: 30px;
     word-spacing: 4px;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 890px) {
+
+    .focusArea{
+        flex-direction: column;
+    }
+    .learn,.login{
+        margin: 30px auto;
+    }
+    .learn button{
+        position: relative;
+        top: 10%;
+        left: 40%;
+        transform: translate(-50%,-50%);
+    }
+    .learn h3{
+        font-size: 65px;
+    }
+}
+@media only screen and (max-width: 650px) {
+
+    .nav{
+        flex-direction: column;
+    }
+    .right_items button{
+        font-size: 10px;
+        width: 140px;
+    }
+
 }
