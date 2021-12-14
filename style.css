@@ -9,6 +9,10 @@ body{
 }
 
 
+button{
+    cursor: pointer;
+}
+
 .navBar{
     display: flex;
     justify-content: center;
