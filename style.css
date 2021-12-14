@@ -79,7 +79,7 @@ body{
 
 
 .midSection{
-    margin: 100px 0 0 50px;
+    margin: 90px 0 0 50px;
     /* background-color: aqua; */
     height: 150px;
     width: calc(100% - 100px);
@@ -198,8 +198,9 @@ body{
 .footere{
     display: flex;
     margin: 30px;
+    margin-bottom: 0;
     word-spacing: 4px;
-    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 @media only screen and (max-width: 890px) {
@@ -228,6 +229,9 @@ body{
     .right_items button{
         font-size: 10px;
         width: 140px;
+    }
+    .footere{
+        flex-wrap: wrap;
     }
 
 }
